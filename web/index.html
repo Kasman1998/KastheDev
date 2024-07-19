@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <title>Kwentin Shelton Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="webeffects.css">
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom:12px}
+       
+      
+        .bgimg  {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: yellow;
+            background-size: cover;
+            background-image: url("Website Pictures/IMG_2995.JPG");
+            min-height:100%;
+            max-height: 100%;
+            margin-left: -2.5em;
+   
+        }
+        
+        h2{
+            text-align: center;
+        }
+
+        .separator {
+	 margin-top: 25px;
+	 margin-bottom: 80px;
+	 border: 0;
+}
+ .separator--line {
+	 border: 0;
+	 border-bottom: 5px solid grey;
+	 width: 0;
+	 animation: separator-width 1s ease-out forwards;
+}
+ @keyframes separator-width {
+	 0% {
+		 width: 0;
+	}
+	 100% {
+		 width: 100%;
+	}
+}
+ .separator--dots {
+	 overflow: visible;
+	 border: 0;
+	 position: relative;
+}
+ .separator--dots:before {
+	 position: absolute;
+	 left: -32px;
+	 animation: dot-move-left 1s ease-out forwards;
+}
+ .separator--dots:after {
+	 position: absolute;
+	 left: 32px;
+	 animation: dot-move-right 1s ease-out forwards;
+}
+ 
+
+        
+        
+        
+    </style>
+    <body> 
+
+        <!-- Sidebar with image -->
+ 
+      <nav class="w3-sidebar w3-hide-medium w3-hide-small w3-mobile" style="width:40%">
+           <div class="bgimg"></div> 
+        </nav>
+
+        <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+      <nav class="w3-sidebar w3-green w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+            <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-green w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+                <i class="fa fa-remove"></i>
+            </a>
+            <div class="w3-bar-block w3-center">
+                <a href="#home" class="w3-bar-item w3-button w3-text-black w3-dark-green" onclick="closeNav()">Home</a>
+                <a href="#portfolio" class="w3-bar-item w3-button w3-text-black w3-hover-black" onclick="closeNav()">Project Portfolio</a>
+                <a href="#about" class="w3-bar-item w3-button w3-text-black w3-hover-black" onclick="closeNav()">About</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-text-black w3-hover-black" onclick="closeNav()">Contact</a>
+            </div>
+        </nav>
+
+     
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large w3-yellow w3-mobile" style="margin-left:40%">
+
+     <!-- Menu icon to open sidebar -->
+     <span class="w3-button w3-top w3-yellow w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+     <!-- Header -->
+     <header class="w3-container w3-mobile w3-center" style="padding:128px 16px" id="home"> 
+         <div class=" container ">
+             <div class=" w3-container box">
+                <div class="title">
+                   <span class="block"></span>
+                     <h1><b>Kwentin Shelton</b></h1>
+                 </div>
+                 <div class="role">
+                     <div class="block"></div>
+                     <p>Software Developer</p>
+                 </div>
+             </div>
+         </div>
+             <img src="Website Pictures/IMG_2996.JPG" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+               <img src="Website Pictures/IMG_2996.JPG" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333"> 
+                <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+              <a href="Website Pictures/Kwentin Shelton 2019 Resume.docx" style="text-decoration: none;">  <i class="fa fa-download"></i> Download and View Resume
+              </a> </button>
+            </header>
+            <div class="w3-content  w3-text-black w3-padding-32" id="about">
+                <h2 class="separator--line"> <b>About</b></h2>
+                
+                <p style="font-size:medium; font-family: fantasy;"> Welcome to my website you will get an exclusive view of my projects and solutions.My name
+                    is Kwentin Shelton I'm a developer who is skilled many programming languages such as SQL,HTML,
+                    JavaScript,Java, and C++. My goal is to become an successful software developer in
+                    the IT industry. 
+                </p>
+                <hr class="separator--line"> 
+                <h3 class="w3-padding-16" style="font-family:fantasy; text-align:center ">My Skills</h3>
+         
+                <ul class="w3-margin-right w3-margin-left w3-padding-small" style="font-size: medium; font-family: fantasy">
+                    <li>Proficient skills in Windows 7,8 and 10</li>
+                    <li> Practical Knowledge in Java, JavaScript, HTML, C++, and CSS</li>
+                    <li>Network Configuration and Troubleshooting.</li>
+                    <li>PC Maintenance and Installation Repair </li>
+                    <li>Skills in PC and OS Troubleshooting</li>
+                </ul>  
+                <div class="w3-row w3-center  w3-padding-16 w3-section">
+                    <div class="w3-half   w3-section w3-black">
+                        <span class="w3-xlarge">20+</span><br>
+                        Projects Done
+                    </div>
+                    <div class="w3-quarter  w3-section  w3-light-grey w3-center">
+                        <span class="w3-xlarge">25+</span><br>
+                        Successful Code Reviews
+                    </div>
+                    <div class="w3-quarter w3-section w3-green ">
+                        <span class="w3-xlarge">4</span><br>
+                        College Credentials
+                    </div>
+
+                </div>
+                <hr class="separator--line">
+                <!-- Testimonials -->
+                <h3 class="w3-padding-small w3-text-black w3-section" style="font-size:xx-large; font-family: fantasy; text-align:center;">IT Experience</h3>
+                <img src="Website Pictures/Fulton_County_LOGO.jpg " alt="Avatar" class="w3-left w3-margin-right w3-image" style="width:70px;">
+                <b>Fulton County Government- Information Technology Support Specialist</b>
+                    <p class=" w3-margin-right w3-medium w3-center w3-xlarge"><b>Job Duties</b></p>
+                    <ul class="w3-margin-right w3-padding-32" style="font-size:medium; font-family: fantasy;">
+                        <li>PC Inventory Management</li>
+                        <li>PC Hardware and Software Installation</li>
+                        <li>Customer service and Interpersonal Skills</li>
+                        <li>Spreadsheet Management</li>
+                        <li>Cable Management</li>
+                    </ul> 
+                      <hr class="w3-dark-green separator--line">
+                    <h2 class="w3-padding-small w3-text-black w3-section w3-content" style="font-size: xx-large;font-family: fantasy;">Education</h2>
+                  
+                    <img src="Website Pictures/atc.png "alt="Avatar" class="w3-left  w3-margin-right w3-image" style="width:140px;">
+                            <b>Atlanta Technical College</b>
+                        <p class=" w3-margin-right w3-medium w3-center w3-xlarge"><b>College Credentials</b></p>
+                        <ul style="font-size:medium; font-family:fantasy;">
+                            <li>Computer Programming Associate of Appiled Science Degree</li>
+                            <li>Java Programming Cert</li>
+                            <li>C++ Programming Cert</li>
+                            <li>Computer Programming Diploma</li>
+                        </ul>
+                        </div>
+                        <center> <button class="w3-button w3-black w3-padding-large w3-section ">
+                                <a href="Website Pictures/Kwentin Shelton 2019 Resume.docx" style="text-decoration: none;"><i class="fa fa-download"> </i> Download Resume
+                            </button> </a></center> 
+                        <!-- Portfolio Section -->
+
+                        <div class="w3-padding-32 w3-content" id="portfolio">
+                              <hr class="w3-black separator--line">
+                            <h2 class="w3-text-black" style="font-family: fantasy; font-size: xx-large"> Portfolio Projects</h2>
+                         
+                            <article>
+                                <h2 class="w3-xlarge3" style="font-weight: bolder"> Date GUI Data
+                                    Analysis </h2> 
+                                <p><strong> Application Developed by:</strong> Kwentin Shelton <strong>Published:</strong> Yesterday</p><center></center>
+                                <p style="font-family: fantasy; font-size: medium;">
+                                    The purpose of this project is to collect data from the Data GUI which is a Java Swing Application. 
+                                    The Data GUI tell users what their symbols are based on birthday. The data that user entered is sent to a database  
+                                    to be analyze in this web application. This application will be analyze the amount of times a symbols be input.<a href="PieData.jsp"style="text-decoration: none; color:inherit;">
+                                        Click Here</a></p><!-- Grid for photos -->
+                                <div class="w3-row-padding w3-center;" style="margin:0 4em;">
+                                    <center> <img src="Website Pictures/DateGUI.png"  style=" width:200px;"></center>
+                                </div>
+                                    <!-- End photo grid -->
+                              
+                                <center> <button class="w3-button w3-black w3-padding-large w3-section ">
+                                        <a href="Website Pictures/Date GUI.zip" style="text-decoration: none;"><i class="fa fa-download"> </i> Download Project </button> </a></center>  
+                                <!-- End Portfolio Section -->
+                        </div> 
+                        <h2 class="w3-xlarge" style="font-weight:bolder">Employee Job Portal JavaFX Version</h2>
+                        <p><strong> Application Developed by:</strong> Kwentin Shelton <strong>Published:</strong> Yesterday</p><center></center>
+                        <p style="font-family: fantasy; font-size: medium">This application is made in JavaFX this application work as Job portal.The project
+                            prompt the user to make account then apply for a job.</p>    
+                        <div class="w3-row-padding w3-center" style="margin:0 4em">
+                            <div>
+                                <center> <img src="Website Pictures/Job Application.png" alt='im' style="width:200px;"> </center>
+                            </div>     
+                        </div>   <center> <button class="w3-button w3-black w3-padding-large w3-section ">
+                                <a href="Website Pictures/JobApplicationGUI.jar" style="text-decoration: none;"><i class="fa fa-download"> </i> Download Project </button> </a></center>  
+                        <h2 class="w3-xlarge" style="font-weight:bolder">Basic Java/C++ Projects</h2>
+                        <p><strong> Application Developed by:</strong> Kwentin Shelton <strong>Published:</strong> Yesterday</p><center></center>
+                        <p style="font-family: fantasy; font-size: medium"> These are basic Java Project that start at the fundmentals.</p>    
+                        <div class="w3-row-padding " style="margin:0 4em">
+                            <div>
+                                <center> <img src="Website Pictures/C++ Logo.png" class="w3-center" alt='im' style="width:200px;"> </center>
+
+                            </div>  
+                        </div>                        
+                        </article>
+                        <!-- About Section -->
+
+                        <!-- Contact Section -->
+                        <hr class="opacity-16 separator--line">
+                        <div class="w3-padding-32 w3-content w3-text-black " id="contact" style="margin-bottom:64px">
+                            <h2><b>Contact Me</b></h2>
+                           
+
+                            <div class="w3-section">
+                                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Atlanta,GA</p>
+                                <p><i class="fa fa-github fa-fw w3-xxlarge w3-margin-right"></i> Github</p>
+                                <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"> </i>Linkeldn</p>
+                            </div>
+
+                            <!-- Image of location/map -->
+                            <img src="Website Pictures/IMG_2146.JPG" class="w3-image" style="width:100%;margin:32px 0">
+
+                            <p>Lets get in touch. Send me a message:</p>
+                            <form action="User Forum" method="post">
+                                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" name="firstName" required ></p>
+                                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" name="email" required ></p>
+                                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject"  required ></p>
+                                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message"  required ></p>
+                                <p>
+                                <center>      <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                                        <i class="fa fa-paper-plane" ></i> SEND MESSAGE
+                                    </button> </center>
+                                </p>
+                            </form>
+                            <!-- End Contact Section -->
+                        </div>  
+
+                        <!-- Footer -->
+                        <footer class="w3-container w3-padding-64 w3-black w3-center w3-opacity w3-xlarge" style="margin:-24px; margin-bottom: -12px;">
+                            <i class="fa fa-facebook-official w3-hover-opacity w3-hover-black"></i>
+                            <i class="fa fa-github w3-hover-opacity "></i>
+                            <i class="fa fa-twitter w3-hover-opacity"></i>
+                            <a href="https://www.linkedin.com/in/kwentin-shelton-168794184/" style="text-decoration: none;" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                            <p class="w3-medium">Develop by Kwentin Shelton</p>
+                            <!-- End footer -->
+                        </footer>
+                        
+
+                        <!-- END PAGE CONTENT -->
+                        
+
+                        <script>
+                            // Open and close sidebar
+                            function openNav() {
+                                document.getElementById("mySidebar").style.width = "60%";
+                                document.getElementById("mySidebar").style.display = "block";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidebar").style.display = "none";
+                            }
+                        </script>
+
+                        </body>
+                        </html>
